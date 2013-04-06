@@ -1,0 +1,12 @@
+
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 {{preview.width}} {{preview.height}}'>
+	<rect x='0' y='0' width='{{preview.width}}' height='{{preview.height}}'/>
+
+	{{#columns}}
+		{{#tiles}}
+			<g class='tile' transform='translate({{. | convertCoords}})'>
+				<polygon class='Hexagon' points='1,0 0.5,0.866 -0.5,0.866 -1,0 -0.5,-0.866 0.5,-0.866'/>
+			</g>
+		{{/tiles}}
+	{{/columns}}
+</svg>

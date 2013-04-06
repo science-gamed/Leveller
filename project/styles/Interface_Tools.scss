@@ -2,5 +2,27 @@
 
 #Interface_Tools {
 	-webkit-flex: initial;
-	background-color: purple;
+	padding: 0.5em;
+}
+
+.Interface_Tools_Button {
+	border: 1px solid rgba(255,255,255,0.5);
+	border-right-color: rgba(0,0,0,0.5);
+	border-bottom-color: rgba(0,0,0,0.5);
+	padding: 0.5em;
+	display: inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	&:after {
+		content: attr(value);
+	}
+
+	&:checked {
+		background-color: rgba(0,0,0,0.1);
+		border-color: rgba(0,0,0,0.5);
+		border-right-color: rgba(255,255,255,0.5);
+		border-bottom-color: rgba(255,255,255,0.5);
+	}
 }

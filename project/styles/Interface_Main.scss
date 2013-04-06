@@ -3,5 +3,20 @@
 #Interface_Main {
 	-webkit-flex: auto;
 	-webkit-align-self: stretch;
-	background-color: red;
+	background-color: white;
+	display: -webkit-flex;
+	position: relative;
+
+	svg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+
+	.Hexagon {
+		opacity: 0.5;
+		fill: white;
+		stroke: black;
+		stroke-width: 0.01;
+	}
 }
