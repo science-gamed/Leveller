@@ -1,0 +1,12 @@
+@import "base";
+
+#Container {
+	background-color: #eee;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-direction: column;
+
+	width: 100%;
+	height: 100%;
+}

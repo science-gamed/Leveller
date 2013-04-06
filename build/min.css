@@ -1,0 +1,83 @@
+@media -sass-debug-info{filename{}line{font-family:\000033}}
+#Container {
+  background-color: #eee;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{}line{font-family:\0000315}}
+#Interface {
+  background-color: red;
+  -webkit-flex: auto;
+  display: -webkit-flex;
+  display: flex; }
+
+@media -sass-debug-info{filename{}line{font-family:\0000328}}
+#Interface_Inventory {
+  width: 300px; }
+
+@media -sass-debug-info{filename{}line{font-family:\0000333}}
+#Interface_Left {
+  -webkit-align-self: stretch;
+  display: -webkit-flex;
+  -webkit-flex-flow: column nowrap;
+  -webkit-flex: auto;
+  background-color: green; }
+
+@media -sass-debug-info{filename{}line{font-family:\0000343}}
+#Interface_Main {
+  -webkit-flex: auto;
+  -webkit-align-self: stretch;
+  background-color: red; }
+
+@media -sass-debug-info{filename{}line{font-family:\0000350}}
+#Interface_Right {
+  -webkit-flex: initial;
+  background-color: yellow; }
+
+@media -sass-debug-info{filename{}line{font-family:\0000356}}
+#Interface_Tools {
+  -webkit-flex: initial;
+  background-color: purple; }
+
+@media -sass-debug-info{filename{}line{font-family:\0000362}}
+#Menu {
+  -webkit-align-self: stretch;
+  -webkit-flex: initial;
+  background-color: #333;
+  color: white;
+  display: -webkit-flex;
+  padding: 0.5em; }
+@media -sass-debug-info{filename{}line{font-family:\0000370}}
+  #Menu h1 {
+    margin: 0 1em 0 0;
+    -webkit-flex: initial;
+    -webkit-align-self: center; }
+@media -sass-debug-info{filename{}line{font-family:\0000376}}
+  #Menu ul {
+    margin: 0;
+    padding: 0;
+    -webkit-flex: auto;
+    -webkit-align-self: center; }
+@media -sass-debug-info{filename{}line{font-family:\0000383}}
+  #Menu li {
+    display: inline-block;
+    padding: 0.5em;
+    cursor: pointer; }
+@media -sass-debug-info{filename{}line{font-family:\0000388}}
+    #Menu li:hover {
+      background-color: #666; }
+
+@media -sass-debug-info{filename{}line{font-family:\00003126}}
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{}line{font-family:\00003132}}
+body {
+  font-family: 'Helvetica Neue', 'Arial';
+  font-size: 16px;
+  color: #333; }

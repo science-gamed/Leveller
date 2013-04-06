@@ -1,0 +1,14 @@
+{
+	"name": "Leveller",
+	"desc": "Level authoring tool for Monkey Panic",
+	"version": "0.1.0",
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-watch": "~0.3.1",
+		"grunt-contrib-sass": "~0.3.0",
+		"grunt-contrib-copy": "~0.4.1",
+		"grunt-contrib-clean": "~0.4.0",
+		"grunt-contrib-requirejs": "~0.4.0",
+		"grunt-dir2json": "~0.1.3"
+	}
+}

@@ -1,0 +1,10 @@
+@import "base";
+
+#Interface_Left {
+	-webkit-align-self: stretch;
+
+	display: -webkit-flex;
+	-webkit-flex-flow: column nowrap;
+	-webkit-flex: auto;
+	background-color: green;
+}
